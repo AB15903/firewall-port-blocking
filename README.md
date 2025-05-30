@@ -38,7 +38,7 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
         [Before this you have to install Telnet via cmd running as administrator if not this will not work]
 
      command prompt :
-                    dism/online/Enable-Feature/FeatureName:TelnetClient   
+                    dism /online /Enable-Feature /FeatureName:TelnetClient   
        
         [if you want to disable it you can by :Disable-Feature in the place of Enable-Feature]            
 
